@@ -8,9 +8,7 @@
 **Trabajo Fin de Máster - Máster Universitario en Ingeniería de Computadores y Redes - DISCA - UPV**  
 **Autor**: Antonino Ciordia Barcos  
 **Tutores**: Enrique S. Quintana-Ortí, Adrián Castelló 
-
-
-
+<br><br>
 
 <p align="center">
   <img src="img/Triton.png" alt="Logo Triton" height="220">
