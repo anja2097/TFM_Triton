@@ -53,7 +53,7 @@ TFM_Triton/
 ├── resultados/                   <- Directorios con resultados y salidas
 ├── LICENSE                       <- Licencia del proyecto
 └── README.md                     <- Este documento
-
+```
 ---
 
 ## **Ejecución del proyecto**
@@ -70,3 +70,4 @@ Puedes descargarlos desde el repositorio o clonar todo con:
 ```bash
 git clone https://github.com/anja2097/TFM_Triton.git
 cd TFM_Triton
+```
