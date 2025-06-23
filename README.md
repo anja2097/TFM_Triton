@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="img/UPV.jpg" alt="Logo UPV" width="180" style="float: left; margin-right: 40px;">
-  <img src="img/MIC.png" alt="Logo MIC" width="180" style="float: right; margin-left: 40px;">
+  <img src="img/UPV.jpg" height="80">
+  <img src="img/MIC.png" height="80">
 </p>
 
 # Optimización de redes neuronales para GPUs con Triton
