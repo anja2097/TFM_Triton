@@ -7,10 +7,13 @@
 
 **Trabajo Fin de Máster - Máster Universitario en Ingeniería de Computadores y Redes - DISCA - UPV**  
 **Autor**: Antonino Ciordia Barcos  
-**Tutores**: Enrique S. Quintana-Ortí, Adrián Castelló  
+**Tutores**: Enrique S. Quintana-Ortí, Adrián Castelló 
+
+
+
 
 <p align="center">
-  <img src="img/Triton.png" alt="Logo Triton" height="160">
+  <img src="img/Triton.png" alt="Logo Triton" height="220">
 </p>
 
 ---
@@ -33,6 +36,9 @@ Como modelos de referencia se emplean las arquitecturas VGG16 y ResNet-50, ampli
 
 ## Resultados obtenidos
 
+<p align="center">
+  <img src="img/ResNET50-FP32-B64_Optimizado.png" alt="Resultado" height="550">
+</p>
 
 ---
 
@@ -41,6 +47,7 @@ Como modelos de referencia se emplean las arquitecturas VGG16 y ResNet-50, ampli
 ```text
 TFM_Triton/
 │
+├── img/                          <- Imágenes empleadas en este documento
 ├── Ejecucion_modelos.ipynb       <- Notebook principal con ejecución de pruebas
 ├── requirements.txt              <- Librerías necesarias
 ├── resultados/                   <- Directorios con resultados y salidas
