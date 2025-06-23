@@ -1,9 +1,8 @@
-<table>
-  <tr>
-    <td align="left"><img src="img/UPV.jpg" alt="Logo UPV" width="180"></td>
-    <td align="right"><img src="img/MIC.png" alt="Logo MIC" width="180"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="img/UPV.jpg" alt="Logo UPV" width="180" style="float: left; margin-right: 40px;">
+  <img src="img/MIC.png" alt="Logo MIC" width="180" style="float: right; margin-left: 40px;">
+</p>
+
 # Optimización de redes neuronales para GPUs con Triton
 
 **Trabajo Fin de Máster - Máster Universitario en Ingeniería de Computadores y Redes - DISCA - UPV**  
