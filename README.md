@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Logo_UPV_color.svg" height="80">
-  <img src="logo-mic.png" height="80">
+  <img src="img/logo-mic.png" height="80">
 </p>
 
 # TFM_Triton
