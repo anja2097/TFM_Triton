@@ -36,7 +36,7 @@ Como modelos de referencia se emplean las arquitecturas VGG16 y ResNet-50, ampli
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```text
 TFM_Triton/
