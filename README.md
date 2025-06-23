@@ -20,12 +20,6 @@
 
 ## Resumen
 
-Este TFM estudia el impacto del uso de [Triton](https://github.com/openai/triton), un lenguaje y compilador para kernels personalizados en GPU, en la **optimización de modelos de deep learning**, como:
-
-- **Convolutional Neural Networks (CNNs)**
-
-Se analiza el rendimiento frente a implementaciones tradicionales en PyTorch y CuPy y se exploran ventajas a nivel de coste computacional, flexibilidad y portabilidad del código.
-
 El objetivo principal de este Trabajo de Fin de Máster es el estudio, desarrollo y análisis de técnicas de optimización de redes neuronales profundas mediante el uso de [Triton](https://github.com/openai/triton), un compilador y modelo de programación de alto nivel desarrollado por OpenAI, diseñado para la generación de kernels eficientes en GPU. Debido al crecimiento del campo en los últimos años y la necesidad actual de poder de cómputo, esta memoria se centra en evaluar la viabilidad y eficacia del ecosistema Triton frente a entornos consolidados como CuPy o Torch.
 
 El tipo de red sobre el que se centra este trabajo son las redes convolucionales modernas, sobre los que se aplicarán transoformaciones con el fin de reducirlos mayoritariamente a multiplicaciones de matrices (GEMM). Se implementarán versiones optimizadas de esta operación utilizando Triton, y se comparan cuantitativamente sus resultados frente a bibliotecas convencionales, tanto en términos de rendimiento como de portabilidad y expresividad del código.
