@@ -1,0 +1,279 @@
+--------------------------------------------------
+ID capa: 1
+Tamaño de matrices: m = 50176, n = 64, k = 27
+Se emplea en las capas nº: 01
+Triton autotuning for function matmul_kernel finished after 1.29s; best config selected: BLOCK_SIZE_M: 32, BLOCK_SIZE_N: 32, BLOCK_SIZE_K: 16, GROUP_SIZE: 4, num_warps: 2, num_ctas: 1, num_stages: 4, num_buffers_warp_spec: 0, num_consumer_groups: 0, reg_dec_producer: 0, reg_inc_consumer: 0, maxnreg: None;
+Tiempo compilación Triton: 1.294467 s
+Tiempo compilación CuPy: 0.000803 s
+Tiempo compilacion cuBLAS: 0.000224 s
+
+Estadísticas de tiempo (segundos):
+Triton:
+  Mínimo: 0.000144
+  Máximo: 0.000268
+  Media: 0.000161
+  Mediana: 0.000149
+
+CuPy:
+  Mínimo: 0.000177
+  Máximo: 0.000402
+  Media: 0.000201
+  Mediana: 0.000188
+
+Speedup (CuPy/Triton): 1.26x
+
+cuBLAS:
+  Mínimo: 0.000086
+  Máximo: 0.000132
+  Media: 0.000092
+  Mediana: 0.000089
+Speedup (cuBLAS/Triton): 0.59x
+--------------------------------------------------
+--------------------------------------------------
+ID capa: 2
+Tamaño de matrices: m = 50176, n = 64, k = 576
+Se emplea en las capas nº: 03
+Triton autotuning for function matmul_kernel finished after 1.40s; best config selected: BLOCK_SIZE_M: 128, BLOCK_SIZE_N: 128, BLOCK_SIZE_K: 32, GROUP_SIZE: 8, num_warps: 4, num_ctas: 1, num_stages: 4, num_buffers_warp_spec: 0, num_consumer_groups: 0, reg_dec_producer: 0, reg_inc_consumer: 0, maxnreg: None;
+Tiempo compilación Triton: 1.396465 s
+Tiempo compilación CuPy: 0.000690 s
+Tiempo compilacion cuBLAS: 0.000433 s
+
+Estadísticas de tiempo (segundos):
+Triton:
+  Mínimo: 0.000510
+  Máximo: 0.000696
+  Media: 0.000527
+  Mediana: 0.000523
+
+CuPy:
+  Mínimo: 0.000462
+  Máximo: 0.000548
+  Media: 0.000480
+  Mediana: 0.000476
+
+Speedup (CuPy/Triton): 0.91x
+
+cuBLAS:
+  Mínimo: 0.000365
+  Máximo: 0.000442
+  Media: 0.000375
+  Mediana: 0.000372
+Speedup (cuBLAS/Triton): 0.71x
+--------------------------------------------------
+--------------------------------------------------
+ID capa: 3
+Tamaño de matrices: m = 12544, n = 128, k = 576
+Se emplea en las capas nº: 06
+Triton autotuning for function matmul_kernel finished after 1.32s; best config selected: BLOCK_SIZE_M: 64, BLOCK_SIZE_N: 128, BLOCK_SIZE_K: 32, GROUP_SIZE: 8, num_warps: 4, num_ctas: 1, num_stages: 4, num_buffers_warp_spec: 0, num_consumer_groups: 0, reg_dec_producer: 0, reg_inc_consumer: 0, maxnreg: None;
+Tiempo compilación Triton: 1.320711 s
+Tiempo compilación CuPy: 0.000469 s
+Tiempo compilacion cuBLAS: 0.000203 s
+
+Estadísticas de tiempo (segundos):
+Triton:
+  Mínimo: 0.000226
+  Máximo: 0.000334
+  Media: 0.000236
+  Mediana: 0.000230
+
+CuPy:
+  Mínimo: 0.000223
+  Máximo: 0.000360
+  Media: 0.000235
+  Mediana: 0.000229
+
+Speedup (CuPy/Triton): 0.99x
+
+cuBLAS:
+  Mínimo: 0.000132
+  Máximo: 0.000266
+  Media: 0.000138
+  Mediana: 0.000135
+Speedup (cuBLAS/Triton): 0.58x
+--------------------------------------------------
+--------------------------------------------------
+ID capa: 4
+Tamaño de matrices: m = 12544, n = 128, k = 1152
+Se emplea en las capas nº: 08
+Triton autotuning for function matmul_kernel finished after 1.36s; best config selected: BLOCK_SIZE_M: 64, BLOCK_SIZE_N: 128, BLOCK_SIZE_K: 32, GROUP_SIZE: 8, num_warps: 4, num_ctas: 1, num_stages: 4, num_buffers_warp_spec: 0, num_consumer_groups: 0, reg_dec_producer: 0, reg_inc_consumer: 0, maxnreg: None;
+Tiempo compilación Triton: 1.358844 s
+Tiempo compilación CuPy: 0.000588 s
+Tiempo compilacion cuBLAS: 0.000309 s
+
+Estadísticas de tiempo (segundos):
+Triton:
+  Mínimo: 0.000369
+  Máximo: 0.000485
+  Media: 0.000385
+  Mediana: 0.000381
+
+CuPy:
+  Mínimo: 0.000341
+  Máximo: 0.001601
+  Media: 0.000368
+  Mediana: 0.000353
+
+Speedup (CuPy/Triton): 0.93x
+
+cuBLAS:
+  Mínimo: 0.000210
+  Máximo: 0.000240
+  Media: 0.000217
+  Mediana: 0.000216
+Speedup (cuBLAS/Triton): 0.57x
+--------------------------------------------------
+--------------------------------------------------
+ID capa: 5
+Tamaño de matrices: m = 3136, n = 256, k = 1152
+Se emplea en las capas nº: 11
+Triton autotuning for function matmul_kernel finished after 1.32s; best config selected: BLOCK_SIZE_M: 64, BLOCK_SIZE_N: 128, BLOCK_SIZE_K: 32, GROUP_SIZE: 8, num_warps: 4, num_ctas: 1, num_stages: 4, num_buffers_warp_spec: 0, num_consumer_groups: 0, reg_dec_producer: 0, reg_inc_consumer: 0, maxnreg: None;
+Tiempo compilación Triton: 1.318607 s
+Tiempo compilación CuPy: 0.000422 s
+Tiempo compilacion cuBLAS: 0.000199 s
+
+Estadísticas de tiempo (segundos):
+Triton:
+  Mínimo: 0.000182
+  Máximo: 0.000381
+  Media: 0.000194
+  Mediana: 0.000188
+
+CuPy:
+  Mínimo: 0.000211
+  Máximo: 0.000284
+  Media: 0.000223
+  Mediana: 0.000218
+
+Speedup (CuPy/Triton): 1.16x
+
+cuBLAS:
+  Mínimo: 0.000114
+  Máximo: 0.000296
+  Media: 0.000120
+  Mediana: 0.000117
+Speedup (cuBLAS/Triton): 0.62x
+--------------------------------------------------
+--------------------------------------------------
+ID capa: 6
+Tamaño de matrices: m = 3136, n = 256, k = 2304
+Se emplea en las capas nº: 13, 15
+Triton autotuning for function matmul_kernel finished after 1.35s; best config selected: BLOCK_SIZE_M: 64, BLOCK_SIZE_N: 128, BLOCK_SIZE_K: 32, GROUP_SIZE: 8, num_warps: 4, num_ctas: 1, num_stages: 4, num_buffers_warp_spec: 0, num_consumer_groups: 0, reg_dec_producer: 0, reg_inc_consumer: 0, maxnreg: None;
+Tiempo compilación Triton: 1.347206 s
+Tiempo compilación CuPy: 0.000619 s
+Tiempo compilacion cuBLAS: 0.000300 s
+
+Estadísticas de tiempo (segundos):
+Triton:
+  Mínimo: 0.000274
+  Máximo: 0.000406
+  Media: 0.000308
+  Mediana: 0.000300
+
+CuPy:
+  Mínimo: 0.000273
+  Máximo: 0.000422
+  Media: 0.000308
+  Mediana: 0.000297
+
+Speedup (CuPy/Triton): 0.99x
+
+cuBLAS:
+  Mínimo: 0.000170
+  Máximo: 0.000261
+  Media: 0.000187
+  Mediana: 0.000184
+Speedup (cuBLAS/Triton): 0.61x
+--------------------------------------------------
+--------------------------------------------------
+ID capa: 7
+Tamaño de matrices: m = 784, n = 256, k = 2304
+Se emplea en las capas nº: 18
+Triton autotuning for function matmul_kernel finished after 1.31s; best config selected: BLOCK_SIZE_M: 64, BLOCK_SIZE_N: 128, BLOCK_SIZE_K: 32, GROUP_SIZE: 8, num_warps: 4, num_ctas: 1, num_stages: 4, num_buffers_warp_spec: 0, num_consumer_groups: 0, reg_dec_producer: 0, reg_inc_consumer: 0, maxnreg: None;
+Tiempo compilación Triton: 1.315351 s
+Tiempo compilación CuPy: 0.000423 s
+Tiempo compilacion cuBLAS: 0.000216 s
+
+Estadísticas de tiempo (segundos):
+Triton:
+  Mínimo: 0.000189
+  Máximo: 0.000362
+  Media: 0.000209
+  Mediana: 0.000196
+
+CuPy:
+  Mínimo: 0.000181
+  Máximo: 0.000438
+  Media: 0.000204
+  Mediana: 0.000190
+
+Speedup (CuPy/Triton): 0.97x
+
+cuBLAS:
+  Mínimo: 0.000092
+  Máximo: 0.000193
+  Media: 0.000100
+  Mediana: 0.000095
+Speedup (cuBLAS/Triton): 0.48x
+--------------------------------------------------
+--------------------------------------------------
+ID capa: 8
+Tamaño de matrices: m = 784, n = 512, k = 4608
+Se emplea en las capas nº: 20, 22
+Triton autotuning for function matmul_kernel finished after 1.36s; best config selected: BLOCK_SIZE_M: 64, BLOCK_SIZE_N: 128, BLOCK_SIZE_K: 32, GROUP_SIZE: 8, num_warps: 4, num_ctas: 1, num_stages: 4, num_buffers_warp_spec: 0, num_consumer_groups: 0, reg_dec_producer: 0, reg_inc_consumer: 0, maxnreg: None;
+Tiempo compilación Triton: 1.360064 s
+Tiempo compilación CuPy: 0.000474 s
+Tiempo compilacion cuBLAS: 0.000235 s
+
+Estadísticas de tiempo (segundos):
+Triton:
+  Mínimo: 0.000283
+  Máximo: 0.000356
+  Media: 0.000305
+  Mediana: 0.000305
+
+CuPy:
+  Mínimo: 0.000268
+  Máximo: 0.000390
+  Media: 0.000289
+  Mediana: 0.000287
+
+Speedup (CuPy/Triton): 0.94x
+
+cuBLAS:
+  Mínimo: 0.000169
+  Máximo: 0.000215
+  Media: 0.000185
+  Mediana: 0.000186
+Speedup (cuBLAS/Triton): 0.61x
+--------------------------------------------------
+--------------------------------------------------
+ID capa: 9
+Tamaño de matrices: m = 196, n = 512, k = 4608
+Se emplea en las capas nº: 25, 27, 29
+Triton autotuning for function matmul_kernel finished after 1.34s; best config selected: BLOCK_SIZE_M: 64, BLOCK_SIZE_N: 128, BLOCK_SIZE_K: 32, GROUP_SIZE: 8, num_warps: 4, num_ctas: 1, num_stages: 4, num_buffers_warp_spec: 0, num_consumer_groups: 0, reg_dec_producer: 0, reg_inc_consumer: 0, maxnreg: None;
+Tiempo compilación Triton: 1.336097 s
+Tiempo compilación CuPy: 0.000425 s
+Tiempo compilacion cuBLAS: 0.000156 s
+
+Estadísticas de tiempo (segundos):
+Triton:
+  Mínimo: 0.000261
+  Máximo: 0.000300
+  Media: 0.000269
+  Mediana: 0.000265
+
+CuPy:
+  Mínimo: 0.000187
+  Máximo: 0.000276
+  Media: 0.000198
+  Mediana: 0.000194
+
+Speedup (CuPy/Triton): 0.73x
+
+cuBLAS:
+  Mínimo: 0.000092
+  Máximo: 0.000113
+  Media: 0.000095
+  Mediana: 0.000094
+Speedup (cuBLAS/Triton): 0.35x
+--------------------------------------------------
