@@ -37,7 +37,7 @@ Como modelos de referencia se emplean las arquitecturas VGG16 y ResNet-50, ampli
 ## Resultados obtenidos
 
 <p align="center">
-  <img src="img/ResNET50-FP32-B64_Optimizado.png" alt="Resultado" height="550">
+  <img src="img/ResNET50-FP32-B64_Optimizado.png" alt="Resultado" height="400">
 </p>
 
 ---
@@ -53,3 +53,20 @@ TFM_Triton/
 ├── resultados/                   <- Directorios con resultados y salidas
 ├── LICENSE                       <- Licencia del proyecto
 └── README.md                     <- Este documento
+
+---
+
+## **Ejecución del proyecto**
+
+Para ejecutar este trabajo, basta con tener Python instalado y seguir los pasos descritos a continuación. El entorno está diseñado para ser ligero y fácilmente reproducible.
+
+Para ello debes descargar los siguientes dos archivos del repositorio:
+
+- [`requirements.txt`](requirements.txt): contiene las librerías necesarias.
+- [`Ejecucion_modelos.ipynb`](Ejecucion_modelos.ipynb): notebook principal con los experimentos.
+
+Puedes descargarlos desde el repositorio o clonar todo con:
+
+```bash
+git clone https://github.com/anja2097/TFM_Triton.git
+cd TFM_Triton
